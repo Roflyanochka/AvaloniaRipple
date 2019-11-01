@@ -2,7 +2,7 @@
 
 [![N|Solid](https://i.imgur.com/SJo17KT.gif)](https://i.imgur.com/SJo17KT.gif)
 
-Sample of ripple effect using Avalonia\r
+Sample of ripple effect using Avalonia
 All things which wrapped in RippleEffect will be effected
 
 ```sh
