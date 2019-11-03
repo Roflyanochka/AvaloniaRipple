@@ -9,8 +9,7 @@
         Height="200"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d">
-  <r:RippleEffect Width="200"
-                  Height="60"
+  <r:RippleEffect 
                   RippleFill="#F1F2F2"
                   RippleOpacity="0.2">
     <Border Background="#212121"
