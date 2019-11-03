@@ -51,7 +51,7 @@ namespace Ripple
                 }
                 _pointer = e.GetPosition(this);
                 _isRunning = true;
-                var maxWidth = Math.Max(Bounds.Width, Bounds.Width) * 2.2D;
+                var maxWidth = Math.Max(Bounds.Width, Bounds.Height) * 2.2D;
                 _toWidth.Value = maxWidth;
                 _fromMargin.Value = _circle.Margin = new Thickness(_pointer.X, _pointer.Y, 0, 0);
                 _toMargin.Value = new Thickness(_pointer.X - maxWidth / 2, _pointer.Y - maxWidth / 2, 0, 0);
